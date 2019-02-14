@@ -1,0 +1,61 @@
+Roteiro do Video
+
+1 - Mostrar o código
+
+	- O codigo possui duas versões: Windows & Linux.
+		- A versão windows contem funções (system("cls") e system("pause")) para ficar visualmente mais limpo.
+		- Linux não tem.
+	
+	- Falar como esta dividido(bibliotecas)
+	
+	- main.c - Possui a chamada das funções principais do sistema de acordo com a opção escolhida do menu.
+	
+	- cadastrar.h - Tem a implementação para cadastrar no sistema o cliente ou produto com tratamento para preencher corretamente o campo para ordenação posterior.
+	
+	- editar.h - Implementação da edição de Clientes e produtos.
+	
+	- remover.h - Parte do código reponsável por realizar a remoção de clientes e produtos.
+	
+	relatorios.h - Onde as função de impressão de clientes e produtos estão localizadas.
+
+	- vendas.h - Hospeda as funções de Vendas do sistema referentes ao bonus do trabalho.
+	
+	- util.h - Função para limpar tela - NAO USADO NA VERSÃO LINUX!
+	
+	- database.h - Onde a declação dos tipos cliente e produto estão, além da implementação da parte de salvar dados em arquivo e recuperá-los tambem.
+	
+2 - Mostrar funcionando
+
+	- Cadastrar 2 clientes e 2 produtos
+		- Welington - 760 598 578 98
+		- Felipe - 267 118 153 19
+		
+		- 1 - Laranja Lima 100 0.3
+		- 2 - Laranja Pera 100 1
+		
+	- Editar 1 cliente e 1 produto
+	
+		- Dirceu - 760 598 578 98
+		
+		- 2 - Abacate 50 3
+		
+	- Remover 1 cliente e 1 produto
+	
+		- 267 118 153 19
+		
+		 - 1
+	- Exibir Clientes e produtos	
+	
+	- Vender um produto
+	
+		- 2 - Abacate 50 3
+		
+		- Welington - 760 598 578 98
+	
+	- Encerrar o sistema e mostrar dados salvos
+	- Abrir o sistema e exibir as informações carregas
+	- Excluir um produto, fechar o programa e mostrar que o arquivo onde ele ficaria salvo foi deletado.
+	
+		- 2 - Abacate 50 3
+	
+	
